@@ -1,7 +1,14 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import HomeComponent from '../components/HomePage';
+import Footer from '../components/shared/Footer';
+
+import '../assets/styles/base.css';
 
 const HomePage = () => (
-  <div />
+  <Fragment>
+    <HomeComponent />
+    <Footer />
+  </Fragment>
 );
 
 export default HomePage;
