@@ -9,7 +9,7 @@ it('renders without crashing', () => {
   ReactDOM.unmountComponentAtNode(div);
 });
 
-describe('renders without crashing', () => {
+describe('render navigation bar', () => {
   it('Should render unauthenticated with an unauthenticated navigation bar', () => {
     beforeEach(() => {
       localStorage.clear();

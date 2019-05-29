@@ -1,14 +1,14 @@
 import React, { Fragment } from 'react';
-import HomeComponent from '../components/Home';
+import RegisterComponent from '../components/Register';
 import Footer from '../components/shared/Footer';
 
 import '../assets/styles/base.css';
 
-const HomePage = () => (
+const RegisterPage = () => (
   <Fragment>
-    <HomeComponent />
+    <RegisterComponent />
     <Footer />
   </Fragment>
 );
 
-export default HomePage;
+export default RegisterPage;
