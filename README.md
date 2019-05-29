@@ -1,11 +1,8 @@
 # QUESTIONER FOR ANDELA BOOTCAMP
 
 [![Build Status](https://travis-ci.com/chikeozulumba/questioner-bootcamp-react.svg?branch=develop)](https://travis-ci.com/chikeozulumba/questioner-bootcamp-react)
-
 [![Coverage Status](https://coveralls.io/repos/github/chikeozulumba/questioner-bootcamp-react/badge.svg)](https://coveralls.io/github/chikeozulumba/questioner-bootcamp-react)
-
 [![Maintainability](https://api.codeclimate.com/v1/badges/b92c8d0b240ccd611f75/maintainability)](https://codeclimate.com/github/chikeozulumba/questioner-bootcamp-react/maintainability)
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c4ed8796-7bb0-4db2-9152-63b009f66621/deploy-status)](https://app.netlify.com/sites/peaceful-goodall-f746c6/deploys)
 
 ## Questioner​ helps the meetup organizer prioritize questions to be answered
