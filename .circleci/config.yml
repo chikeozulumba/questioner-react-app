@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:11.10.1
+    working_directory: ~/repo
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - run:
+          name: Run Coverage
+          command: npm run coverage
+      - run:
+          name: Export coverage report to coveralls.io
+          command: TOKEN_COVERALLS=$coveralls_repo_token npm run coveralls
