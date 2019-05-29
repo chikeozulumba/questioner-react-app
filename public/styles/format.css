@@ -1,0 +1,124 @@
+.is-danger {
+	color: red;
+}
+
+.divider {
+	height: 0.2rem;
+	background: #221F28;
+	opacity: 0.1;
+	margin: 1rem auto;
+	width: 100%;
+}
+
+table {
+	width: 750px;
+	border-collapse: collapse;
+	margin: 50px auto;
+}
+
+/* Zebra striping */
+tr:nth-of-type(odd) {
+	background: #eee;
+}
+
+th {
+	background: #221F28;
+	color: white;
+	font-weight: bold;
+}
+
+td,
+th {
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: left;
+	font-size: 18px;
+}
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+	table {
+		width: 100%;
+	}
+
+	/* Force table to not be like tables anymore */
+	table,
+	thead,
+	tbody,
+	th,
+	td,
+	tr {
+		display: block;
+	}
+
+	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	tr {
+		border: 1px solid #ccc;
+	}
+
+	td {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+	}
+
+	td:before {
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		/* Label the data */
+		content: attr(data-column);
+
+		color: #000;
+		font-weight: bold;
+	}
+
+	tbody tr {
+		padding: 1rem;
+	}
+}
+
+.m1 {
+	margin-top: 0.8rem !important;
+	margin-bottom: 0.8rem !important;
+}
+
+.pagination {
+	text-align: center;
+	margin: 2rem auto;
+}
+
+.pagination span {
+	padding: 10px;
+	border-radius: 2px;
+	font-family: 'Circular-Book';
+	font-weight: 600;
+	font-size: 1rem;
+	margin: 0 5px;
+}
+
+@media screen and (min-width: 1680px) {
+	.reg-btn {
+		padding: 1.5rem 1.6rem 1.5rem;
+		font-size: 1rem;
+	}
+
+	.input {
+		margin-top: 2rem;
+	}
+
+	.nav-menu a.hover-t {
+		font-size: 1.4rem !important;
+	}
+}

@@ -5,7 +5,7 @@
         "node": true,
         "jest": true
     },
-    "extends": "airbnb",
+    "extends": ["plugin:import/react", "airbnb"],
     "globals": {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
