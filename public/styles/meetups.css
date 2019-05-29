@@ -1,0 +1,167 @@
+@media screen and (min-width: 1680px) {
+	.stats h3.sm-text {
+		font-size: 1.5rem !important;
+	}
+}
+
+.btn {
+	padding: 1rem 1.2rem !important;
+	font-size: 1rem !important;
+}
+
+.ptb-5 {
+	padding: 50px 0;
+}
+
+.pall-1 {
+	padding: 1rem;
+}
+
+.highlight {
+	margin: 1rem 0;
+	font-style: italic;
+	font-family: 'Circular-Book';
+	font-weight: 400;
+}
+
+.meetups {
+	padding: 1rem 2rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.meetups:hover {
+	cursor: pointer;
+	transform: scale(1.009, 1.009);
+	-webkit-box-shadow: 2px 2px 20px 0px rgba(128, 128, 128, 0.74);
+	-moz-box-shadow: 2px 2px 20px 0px rgba(128, 128, 128, 0.74);
+	box-shadow: 2px 2px 20px 0px rgba(128, 128, 128, 0.74);
+	transition: all 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.media {
+	grid-template-columns: 1fr 1fr;
+	display: grid;
+}
+
+.media div {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: self-end;
+}
+
+.meetups .img {
+	height: 100px;
+	border-radius: 50%;
+}
+
+.meetups a>img {
+	height: 1rem;
+}
+
+.meetups span {
+	font-weight: 600;
+	font-family: "Circular-Book";
+	color: #00cea0;
+	font-size: 0.7rem;
+}
+
+.meetups textarea {
+	border-radius: 0.25rem;
+	resize: none;
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.meetups .btn {
+	width: 30%;
+}
+
+.title {
+	color: #221F28;
+}
+
+.intro a {
+	width: 30%;
+}
+
+.intro h3 {
+	color: #221F28;
+	margin-bottom: 1rem;
+}
+
+div.stats.m1 {
+	margin-top: 2.5rem !important;
+	/* margin-bottom: 3rem !important; */
+}
+
+.user h3.sm-text {
+	color: #393541;
+	font-weight: 400;
+	font-family: 'Circular-Book';
+	font-size: 0.8rem;
+	margin-bottom: 0;
+}
+
+.user span {
+	font-size: 0.8rem;
+}
+
+h3.sm-text {
+	color: #393541;
+	font-weight: 800;
+}
+
+#meetups p.sm-text {
+	color: inherit;
+}
+
+.stats {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.rsvp {
+	text-align: right;
+}
+
+.rsvp span {
+	padding: 0.6rem 0.9rem;
+	color: white;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+	.stats {
+		grid-template-columns: 1fr !important;
+	}
+
+	.rsvp {
+		text-align: left;
+	}
+
+	.user h3.sm-text {
+		margin-bottom: 1rem;
+	}
+}
+
+@media screen and (max-width: 562px) {
+	.stats {
+		grid-template-columns: 1fr 2fr;
+	}
+}
+
+@media (min-width: 576px) {
+	.media div {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		/* align-items: self-end; */
+		margin-left: 0.3rem;
+	}
+
+	.media {
+		grid-template-columns: 1fr;
+		grid-gap: 10px;
+	}
+}
