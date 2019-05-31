@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { render } from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import HomePage from './pages';
@@ -17,7 +18,7 @@ const App = () => (
         <Route path="/" exact component={HomePage} />
         <Route path="/register" exact component={RegisterPage} />
         <Route path="/login" exact component={LoginPage} />
-        <PrivateRoute path="/profile" exact component={ProfilePage} />
+        <PrivateRoute render={render} path="/profile" exact component={ProfilePage} />
       </Switch>
     </BrowserRouter>
   </Fragment>
