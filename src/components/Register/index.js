@@ -15,7 +15,7 @@ const ErrorText = styled.p`
   color: red;
 `;
 
-const Home = (props) => {
+const Register = (props) => {
   const [errors, setErrors] = useState([]);
   const [formData, setFormData] = useState({});
   const handleRegisterSubmit = async () => {
@@ -74,8 +74,8 @@ const Home = (props) => {
   );
 };
 
-Home.propTypes = {
+Register.propTypes = {
   history: PropTypes.object.isRequired,
 };
 
-export default withRouter(Home);
+export default withRouter(Register);

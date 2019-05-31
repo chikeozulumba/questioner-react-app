@@ -28,7 +28,7 @@ export const AuthNavigation = () => (
       <ul className="nav-menu">
         <li className="visibility"><a className="hover-t" href="./pages/meetup.html">Meetups</a></li>
         <li className="visibility"><a className="hover-t" href="./pages/questions.html">Questions</a></li>
-        <li><a className="hover-t" href="./pages/login.html">Login</a></li>
+        <li><Link className="hover-t" to="/login">Login</Link></li>
         <li><a className="reg-btn box-sh-dark hover-lg" href="./pages/register.html">Join Questioner</a></li>
       </ul>
       <a id="menu" href="">

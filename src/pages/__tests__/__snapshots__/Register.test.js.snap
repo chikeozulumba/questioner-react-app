@@ -25,9 +25,9 @@ exports[`<RegisterPage /> should render component when email already exists 1`] 
     }
   >
     <RegisterPage>
-      <withRouter(Home)>
+      <withRouter(Register)>
         <Route>
-          <Home
+          <Register
             history={
               Object {
                 "action": "POP",
@@ -183,9 +183,9 @@ exports[`<RegisterPage /> should render component when email already exists 1`] 
                 </form>
               </div>
             </div>
-          </Home>
+          </Register>
         </Route>
-      </withRouter(Home)>
+      </withRouter(Register)>
       <Footer>
         <footer
           className="bg-secondary"
@@ -290,9 +290,9 @@ exports[`<RegisterPage /> should render component when validation fails 1`] = `
     }
   >
     <RegisterPage>
-      <withRouter(Home)>
+      <withRouter(Register)>
         <Route>
-          <Home
+          <Register
             history={
               Object {
                 "action": "POP",
@@ -448,9 +448,9 @@ exports[`<RegisterPage /> should render component when validation fails 1`] = `
                 </form>
               </div>
             </div>
-          </Home>
+          </Register>
         </Route>
-      </withRouter(Home)>
+      </withRouter(Register)>
       <Footer>
         <footer
           className="bg-secondary"
@@ -555,9 +555,9 @@ exports[`<RegisterPage /> should render component when validation passes 1`] = `
     }
   >
     <RegisterPage>
-      <withRouter(Home)>
+      <withRouter(Register)>
         <Route>
-          <Home
+          <Register
             history={
               Object {
                 "action": "POP",
@@ -713,9 +713,9 @@ exports[`<RegisterPage /> should render component when validation passes 1`] = `
                 </form>
               </div>
             </div>
-          </Home>
+          </Register>
         </Route>
-      </withRouter(Home)>
+      </withRouter(Register)>
       <Footer>
         <footer
           className="bg-secondary"
