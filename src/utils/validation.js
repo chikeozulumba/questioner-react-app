@@ -25,4 +25,19 @@ export const SignUpValidation = (payload) => {
   return new Validator(payload, validateFormat, options);
 };
 
+export const LoginValidation = (payload) => {
+  const validateFormat = {
+    password: ['required', stringValidation, 'min:6'],
+    email: 'required|email',
+  };
+
+  const options = {
+    'required.email': 'Email field is required',
+    'email.email': 'Email format is invalid',
+    'required.password': 'Password field is required',
+  };
+
+  return new Validator(payload, validateFormat, options);
+};
+
 export default SignUpValidation;

@@ -1,0 +1,429 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginPage /> should render component when email already exists 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <LoginPage>
+      <withRouter(Login)>
+        <Route>
+          <Login
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+          >
+            <div
+              className="container"
+            >
+              <div
+                className="card mauto m4 p3"
+                id="login-form"
+              >
+                <form
+                  action="/"
+                  method="POST"
+                >
+                  <div
+                    className="container"
+                  >
+                    <h3
+                      className="md-text"
+                    >
+                      Login
+                    </h3>
+                    <div
+                      className="m1 input"
+                    >
+                      <label
+                        className="m1"
+                        htmlFor="name"
+                      >
+                        Email Address
+                      </label>
+                      <input
+                        className="p1 b-rsm"
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="Your Email Address"
+                        type="email"
+                      />
+                    </div>
+                    <div
+                      className="m1 input"
+                    >
+                      <label
+                        className="m1"
+                        htmlFor="name"
+                      >
+                        Password
+                      </label>
+                      <input
+                        className="p1 b-rsm"
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="*************"
+                        type="password"
+                      />
+                    </div>
+                    <div
+                      className="m2 input"
+                    >
+                      <a
+                        className="reg-btn box-sh-dark hover-lg"
+                        onClick={[Function]}
+                      >
+                        Login
+                      </a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </Login>
+        </Route>
+      </withRouter(Login)>
+      <Footer>
+        <footer
+          className="bg-secondary"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="info-about"
+            >
+              <h3
+                className="md-text"
+              >
+                Interested in Questioner?
+              </h3>
+              <div
+                className="social-links"
+              >
+                <a
+                  href="#!"
+                >
+                  <img
+                    alt=""
+                    src="./assets/imgs/icons/facebook.svg"
+                  />
+                </a>
+                <a
+                  href="#!"
+                >
+                  <img
+                    alt=""
+                    src="./assets/imgs/icons/instagram.svg"
+                  />
+                </a>
+                <a
+                  href="#!"
+                >
+                  <img
+                    alt=""
+                    src="./assets/imgs/icons/twitter.svg"
+                  />
+                </a>
+                <a
+                  href="#!"
+                >
+                  <img
+                    alt=""
+                    src="./assets/imgs/icons/linkedin.svg"
+                  />
+                </a>
+              </div>
+            </div>
+            <div
+              className="additional-info"
+            >
+              <h3
+                className="md-text"
+              >
+                Questioner Goals
+              </h3>
+              <p
+                className="sm-text"
+              >
+                We create a safe space for others to ask for help. We ask for help when we’re stuck and motivate others to do the same.
+              </p>
+              <p
+                className="sm-text"
+              >
+                We create space for psychological safety in all our interactions by encouraging peers to be open and honest about their experiences.
+              </p>
+            </div>
+          </div>
+        </footer>
+      </Footer>
+    </LoginPage>
+  </Router>
+</BrowserRouter>
+`;
+
+exports[`<LoginPage /> should render component when validation fails 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <LoginPage>
+      <withRouter(Login)>
+        <Route>
+          <Login
+            history={
+              Object {
+                "action": "POP",
+                "block": [Function],
+                "createHref": [Function],
+                "go": [Function],
+                "goBack": [Function],
+                "goForward": [Function],
+                "length": 1,
+                "listen": [Function],
+                "location": Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                },
+                "push": [Function],
+                "replace": [Function],
+              }
+            }
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            match={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+          >
+            <div
+              className="container"
+            >
+              <div
+                className="card mauto m4 p3"
+                id="login-form"
+              >
+                <form
+                  action="/"
+                  method="POST"
+                >
+                  <div
+                    className="container"
+                  >
+                    <h3
+                      className="md-text"
+                    >
+                      Login
+                    </h3>
+                    <div
+                      className="m1 input"
+                    >
+                      <label
+                        className="m1"
+                        htmlFor="name"
+                      >
+                        Email Address
+                      </label>
+                      <input
+                        className="p1 b-rsm"
+                        name="email"
+                        onChange={[Function]}
+                        placeholder="Your Email Address"
+                        type="email"
+                      />
+                    </div>
+                    <div
+                      className="m1 input"
+                    >
+                      <label
+                        className="m1"
+                        htmlFor="name"
+                      >
+                        Password
+                      </label>
+                      <input
+                        className="p1 b-rsm"
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="*************"
+                        type="password"
+                      />
+                    </div>
+                    <div
+                      className="m2 input"
+                    >
+                      <a
+                        className="reg-btn box-sh-dark hover-lg"
+                        onClick={[Function]}
+                      >
+                        Login
+                      </a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </Login>
+        </Route>
+      </withRouter(Login)>
+      <Footer>
+        <footer
+          className="bg-secondary"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="info-about"
+            >
+              <h3
+                className="md-text"
+              >
+                Interested in Questioner?
+              </h3>
+              <div
+                className="social-links"
+              >
+                <a
+                  href="#!"
+                >
+                  <img
+                    alt=""
+                    src="./assets/imgs/icons/facebook.svg"
+                  />
+                </a>
+                <a
+                  href="#!"
+                >
+                  <img
+                    alt=""
+                    src="./assets/imgs/icons/instagram.svg"
+                  />
+                </a>
+                <a
+                  href="#!"
+                >
+                  <img
+                    alt=""
+                    src="./assets/imgs/icons/twitter.svg"
+                  />
+                </a>
+                <a
+                  href="#!"
+                >
+                  <img
+                    alt=""
+                    src="./assets/imgs/icons/linkedin.svg"
+                  />
+                </a>
+              </div>
+            </div>
+            <div
+              className="additional-info"
+            >
+              <h3
+                className="md-text"
+              >
+                Questioner Goals
+              </h3>
+              <p
+                className="sm-text"
+              >
+                We create a safe space for others to ask for help. We ask for help when we’re stuck and motivate others to do the same.
+              </p>
+              <p
+                className="sm-text"
+              >
+                We create space for psychological safety in all our interactions by encouraging peers to be open and honest about their experiences.
+              </p>
+            </div>
+          </div>
+        </footer>
+      </Footer>
+    </LoginPage>
+  </Router>
+</BrowserRouter>
+`;

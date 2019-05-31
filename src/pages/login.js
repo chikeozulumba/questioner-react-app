@@ -1,15 +1,15 @@
 import React, { Fragment } from 'react';
-import RegisterComponent from '../components/Register';
+import LoginComponent from '../components/Login';
 import Footer from '../components/shared/Footer';
 
 import '../assets/styles/base.css';
 import '../assets/styles/format.css';
 
-const RegisterPage = () => (
+const LoginPage = () => (
   <Fragment>
-    <RegisterComponent />
+    <LoginComponent />
     <Footer />
   </Fragment>
 );
 
-export default RegisterPage;
+export default LoginPage;
