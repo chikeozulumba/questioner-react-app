@@ -12,6 +12,25 @@ before_script:
 script:
   - npm install
   - npm run coverage
-after_script:
+after_success:
   - TOKEN_COVERALLS=$coveralls_repo_token npm run coveralls
   - codeclimate-test-reporter < ./coverage/lcov.info
+deploy:
+  provider: heroku
+  app: r-questioner
+  on:
+    condition: $TRAVIS_BRANCH == develop
+    repo: chikeozulumba/questioner-bootcamp-react
+    branch: develop
+  api_key:
+    secure: $HEROKU_AUTH
+
+deploy:
+  provider: heroku
+  app: r-questioner
+  on:
+    condition: $TRAVIS_BRANCH == master
+    repo: chikeozulumba/questioner-bootcamp-react
+    branch: master
+  api_key:
+    secure: $HEROKU_AUTH
