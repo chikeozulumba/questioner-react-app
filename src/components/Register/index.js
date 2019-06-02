@@ -30,7 +30,7 @@ const Register = (props) => {
         return props.history.push('/profile');
       }
     } catch (error) {
-      return setErrors([error.response.data.message]);
+      return setErrors([error.response.data.error]);
     }
   };
 
