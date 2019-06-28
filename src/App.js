@@ -1,10 +1,12 @@
 import React, { Fragment } from 'react';
+import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 import HomePage from './pages';
 import RegisterPage from './pages/register';
 import LoginPage from './pages/login';
 import ProfilePage from './pages/profile';
+import CreateMeetupPage from './pages/meetup/create';
 import { Navigation, AuthNavigation } from './components/shared/Navigation';
 import PrivateRoute from './pages/middleware/protect';
 
@@ -17,7 +19,9 @@ const App = () => (
         <Route path="/" exact component={HomePage} />
         <Route path="/register" exact component={RegisterPage} />
         <Route path="/login" exact component={LoginPage} />
-        <PrivateRoute path="/profile" exact component={ProfilePage} />
+        <PrivateRoute render={ReactDOM.render} path="/profile" exact component={ProfilePage} />
+        <PrivateRoute render={ReactDOM.render} path="/meetup/create" exact component={CreateMeetupPage} />
+        <PrivateRoute render={ReactDOM.render} path="/profile" exact component={ProfilePage} />
       </Switch>
     </BrowserRouter>
   </Fragment>
