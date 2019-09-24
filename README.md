@@ -1,4 +1,4 @@
-# QUESTIONER FOR ANDELA BOOTCAMP
+# QUESTIONER APP
 
 [![Build Status](https://travis-ci.com/chikeozulumba/questioner-bootcamp-react.svg?branch=develop)](https://travis-ci.com/chikeozulumba/questioner-bootcamp-react)
 [![Coverage Status](https://coveralls.io/repos/github/chikeozulumba/questioner-bootcamp-react/badge.svg)](https://coveralls.io/github/chikeozulumba/questioner-bootcamp-react)
