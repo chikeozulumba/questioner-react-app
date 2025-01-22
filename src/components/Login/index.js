@@ -30,7 +30,8 @@ const Login = (props) => {
         return props.history.push('/profile');
       }
     } catch (error) {
-      return setErrors([error.response.data.message]);
+      console.log(error.response.data.error);
+      return setErrors([error.response.data.error]);
     }
   };
 
